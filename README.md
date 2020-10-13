@@ -19,8 +19,6 @@ information pertaining to the project. This application dynamically generates a 
 
 ## Installation
 
-*Steps required to install project and how to get the development environment running:*
-
 To generate your own README, first run `npm install` in order to install the following npm package dependencies as specified in the `package.json`:
   * [`inquirer`](https://www.npmjs.com/package/inquirer) that will prompt you for your inputs from the command line 
   * [`axios`](https://www.npmjs.com/package/axios) to fetch your info from the GitHub API
