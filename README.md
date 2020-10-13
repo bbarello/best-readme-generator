@@ -12,6 +12,55 @@ information pertaining to the project. This application dynamically generates a 
   - [Table of Contents](#table-of-contents)
   - [Installation](#installation)
   - [Usage](#usage)
+  - [Description](#description-1)
+  - [Table of Contents](#table-of-contents-1)
+  - [Installation](#installation-1)
+  - [Usage](#usage-1)
+  - [Methodology](#methodology)
+  - [License](#license)
+  - [Questions?](#questions)
+  
+
+## Installation
+
+*Steps required to install project and how to get the development environment running:*
+
+To generate your own README, first run `npm install` in order to install the following npm package dependencies as specified in the `package.json`:
+  * [`inquirer`](https://www.npmjs.com/package/inquirer) that will prompt you for your inputs from the command line 
+  * [`axios`](https://www.npmjs.com/package/axios) to fetch your info from the GitHub API
+
+The application itself can be invoked with `node index.js`.
+
+
+## Usage 
+
+*Instructions and examples for use:*
+
+![Gif demo of README-generator](readme-demo.gif)
+
+When you run `node index.js`, the application uses the `inquirer` package to prompt you in the command line with a series of questions about your GitHub and about your project.
+
+The application then takes your responses and uses `axios` to fetch your GitHub profile from the [GitHub API](https://developer.github.com/v3/), including your GitHub profile picture (avatar) and email.
+From there, the application will generate markdown and a table of contents for the README conditionally based on your responses to the Inquirer prompts (so, if you don't answer the optional questions, such as Installation, an Installation section will not be included in your README). The README will also include badges for your GitHub repo.
+
+Lastly, the `fs.writeFile` is used to generate your project's README.md file. Check out the [`ExampleREADME.md`](https://github.com/bbarello/best-readme-generator/example-readme.md) (# Best Readme Generator
+
+## Description 
+    
+From the command line a user can generate a readme.md file bases on the users GitHub username and other 
+information pertaining to the project. This application dynamically generates a README.md based on a user's input. 
+
+
+## Table of Contents
+- [Best Readme Generator](#best-readme-generator)
+  - [Description](#description)
+  - [Table of Contents](#table-of-contents)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Description](#description-1)
+  - [Table of Contents](#table-of-contents-1)
+  - [Installation](#installation-1)
+  - [Usage](#usage-1)
   - [Methodology](#methodology)
   - [License](#license)
   - [Questions?](#questions)
