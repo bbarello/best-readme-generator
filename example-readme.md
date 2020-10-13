@@ -7,7 +7,7 @@ information pertaining to the project. This application dynamically generates a 
 
 
 ## Table of Contents
-- [Best Readme Generator](#best-readme-generator)
+  - [Best Readme Generator](#best-readme-generator)
   - [Description](#description)
   - [Table of Contents](#table-of-contents)
   - [Installation](#installation)
@@ -49,7 +49,7 @@ UC Berkeley
 
 ---
 
-## Questions?
+## Questions
 
 ![Developer Profile Picture](https://avatars3.githubusercontent.com/u/13710183?v=4) 
 
