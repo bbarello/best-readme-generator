@@ -7,7 +7,7 @@ information pertaining to the project. This application dynamically generates a 
 
 
 ## Table of Contents
-  - [Best Readme Generator](#best-readme-generator)
+  - [Title](#best-readme-generator)
   - [Description](#description)
   - [Table of Contents](#table-of-contents)
   - [Installation](#installation)
