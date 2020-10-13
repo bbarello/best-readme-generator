@@ -1,0 +1,24 @@
+{
+  "name": "best-readme-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bbarello/best-readme-generator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bbarello/best-readme-generator/issues"
+  },
+  "homepage": "https://github.com/bbarello/best-readme-generator#readme",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "inquirer": "^7.3.3"
+  }
+}
