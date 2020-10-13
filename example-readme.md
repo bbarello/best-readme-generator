@@ -14,7 +14,7 @@ information pertaining to the project. This application dynamically generates a 
   - [Usage](#usage)
   - [Methodology](#methodology)
   - [License](#license)
-  - [Questions?](#questions)
+  - [Questions](#questions)
   
 
 ## Installation
