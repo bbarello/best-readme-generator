@@ -1,4 +1,4 @@
-# Best Readme Generator
+# Best Readme.md Generator
 
 ## Description 
     
@@ -13,6 +13,7 @@ information pertaining to the project. This application dynamically generates a 
   - [Installation](#installation)
   - [Usage](#usage)
   - [Methodology](#methodology)
+  - [Demo](#demo)
   - [License](#license)
   - [Questions](#questions)
   
@@ -37,10 +38,12 @@ Lastly, the `fs.writeFile` is used to generate your project's README.md file.
 
 ## Methodology
 
-The application utilizes modularization by separating the GitHub API call and generation of the markdown into separate modules: `api.js` and `markdown.js`, respectively, inside the `utils` folder.
+The application utilizes modularization by separating the GitHub API call and generation of the markdown into separate modules: `api.js` and `markdown.js` inside the `utils` folder.
 
 The application also utilizes, as much as possible, syntax and paradigms introduced in ES6, including `arrow functions`, `const`, `let`, template literals, and `async/await` to handle the `inquirer`, `axios`, and `fs.writeFile` promises.
 
+## Demo
+![Readme Generator Demo](readme-demo.gif)
 
 ## License
 

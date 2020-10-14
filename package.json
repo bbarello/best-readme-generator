@@ -1,7 +1,7 @@
 {
   "name": "best-readme-generator",
   "version": "1.0.0",
-  "description": "",
+  "description": "From the command line a user can generate a readme.md file bases on the users GitHub username and other \r information pertaining to the project. This application dynamically generates a README.md based on a user's input.",
   "main": "script.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -20,5 +20,6 @@
   "dependencies": {
     "axios": "^0.20.0",
     "inquirer": "^7.3.3"
-  }
+  },
+  "devDependencies": {}
 }
